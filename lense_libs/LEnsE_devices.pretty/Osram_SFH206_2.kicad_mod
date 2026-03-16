@@ -1,0 +1,177 @@
+(footprint "Osram_SFH206_2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PhotoDiode, SFH205, RM2.54")
+	(tags "PhotoDiode SFH205 RM2.54")
+	(property "Reference" "D4"
+		(at 1.52 -2.794 0)
+		(layer "F.SilkS")
+		(uuid "f8ac02d0-08cb-4b7c-9002-dda70f0d9425")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SFH206K"
+		(at 1.3 3.556 0)
+		(layer "F.Fab")
+		(uuid "231ae827-eccf-4793-a214-f612ea33d94a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc1eba45-0b2b-4ede-8f43-b44ea904af2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b34d8f51-cc9f-4a78-905f-214ca4c023ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 3.39 -1.65)
+		(end -0.86 -1.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec984fd6-6301-4bce-aa8e-6fa8c0d1e90f")
+	)
+	(fp_arc
+		(start 3.39 -1.65)
+		(mid 1.273062 2.686427)
+		(end -0.853756 -1.645163)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72e849d1-b7f1-4010-b1da-afcb972f780b")
+	)
+	(fp_line
+		(start -1.53 -1.784)
+		(end -1.53 2.816)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cfe6b4e4-0c12-4658-b718-abff28080e58")
+	)
+	(fp_line
+		(start -1.53 -1.784)
+		(end 4.06 -1.784)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7fa0dfc0-6119-48e1-9d49-ce28e2bd6e8f")
+	)
+	(fp_line
+		(start 4.06 2.816)
+		(end -1.53 2.816)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00870108-7c7d-4a4f-a775-9db5fe517761")
+	)
+	(fp_line
+		(start 4.06 2.816)
+		(end 4.06 -1.784)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "442ceefa-d9c1-4e9e-88d5-244c50377bf5")
+	)
+	(fp_line
+		(start 3.408653 -1.415344)
+		(end -0.641347 -1.415344)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e43abffa-e0e7-4d54-b123-bae43423b605")
+	)
+	(fp_arc
+		(start 3.408653 -1.415344)
+		(mid 1.391688 2.680808)
+		(end -0.635036 -1.410524)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dfcd5a79-c528-4278-8cd7-513bf785d854")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 -0.707 0)
+		(layer "F.Fab")
+		(uuid "18bb7995-d6bf-4ed9-9942-752d52584ff8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.178)
+		(uuid "1f6bed73-f382-407f-a391-1e6706fe7af5")
+	)
+	(pad "2" thru_hole circle
+		(at 2.56 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ea4f50c-b7ef-49de-8462-80273f322b9f")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/OptoDevice.3dshapes/Osram_SFH205.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
